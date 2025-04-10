@@ -1,4 +1,4 @@
-// 80pct
+// 80/100 points
 #include<iostream>
 using namespace std;
 void dublare1(int &n) {
