@@ -7,3 +7,10 @@ void sum_cif(int n, int &s) {
         n = n / 10;
     }
 }
+int main() {
+    int n, s;
+    cin >> n;
+    sum_cif(n, s);
+    cout<<s;
+    return 0;
+}
