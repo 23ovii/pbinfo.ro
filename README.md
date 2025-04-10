@@ -1,6 +1,8 @@
 # What is this ?
-In this *Repository* you will find all the problems that I solved, or tried solving from the Romanian 'leetcode', pbinfo.ro.
+In this repository, you'll find all the problems I've solved—or attempted to solve—from the Romanian version of "LeetCode", pbinfo.ro.
 
-I chose to do problems from this website, mainly because that's the main place we do problems from in my high-school.
+I chose to work on problems from this site mainly because it's the primary platform we use in my high school.
+
+In case you're wondering about the file names (especially the numbers), they're just the problem numbers from the site—kind of like how LeetCode numbers its problems.
 
 Have fun exploring my solutions! ;)
