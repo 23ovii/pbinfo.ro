@@ -1,5 +1,3 @@
-// /api/solved.js
-
 const axios = require('axios');
 const cheerio = require('cheerio');
 
