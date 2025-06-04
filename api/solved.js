@@ -16,7 +16,6 @@ module.exports = async (req, res) => {
       label: 'Problems Solved',
       message: solvedNumber,
       color: '9A3412',
-      logo: 'rocket'
     });
   } catch (err) {
     console.error(err);
