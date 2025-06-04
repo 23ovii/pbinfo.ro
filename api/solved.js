@@ -1,25 +1,29 @@
-import axios from 'axios';
-import cheerio from 'cheerio';
+// /api/solved.js
 
-export default async function handler(req, res) {
+const axios = require('axios');
+const cheerio = require('cheerio');
+
+module.exports = async (req, res) => {
   try {
-    const response = await axios.get('https://www.pbinfo.ro/profil/23ovii/probleme');
-    const $ = cheerio.load(response.data);
+    const { data } = await axios.get('https://www.pbinfo.ro/profil/23ovii/probleme');
+    const $ = cheerio.load(data);
 
     const solvedText = $('a[href="/profil/23ovii/probleme"]').text();
-    const solvedNumber = solvedText.match(/\d+/)[0];
+    const solvedNumber = solvedText.match(/\d+/)?.[0] || '0';
 
     res.setHeader('Content-Type', 'application/json');
     res.status(200).json({
       label: 'Problems Solved',
       message: solvedNumber,
       color: '9A3412',
+      logo: 'rocket'
     });
-  } catch (error) {
+  } catch (err) {
+    console.error(err);
     res.status(500).json({
       label: 'Problems Solved',
       message: 'error',
-      color: 'red',
+      color: 'red'
     });
   }
-}
+};
