@@ -1,4 +1,3 @@
-
 <div align="center">
 
 # 🧠 pbinfo.ro Solutions
@@ -7,7 +6,7 @@ A curated archive of clean, well-documented solutions to algorithmic problems fr
 
 <p align="center">
   <img src="https://img.shields.io/badge/Language-C%2B%2B-blue.svg?style=for-the-badge&logo=c%2B%2B" alt="C++" />
-  <img src="https://img.shields.io/badge/Problems%20Solved-69%20🚀-7B2E0C?style=for-the-badge&logo=rocket&logoColor=white&labelColor=B15A0F" alt="Problems Solved" />
+  <img src="https://img.shields.io/endpoint?url=https://pbinfo-ro.vercel.app/api/solved" alt="Problems Solved" />
 
 </p>
 <p align="center">
