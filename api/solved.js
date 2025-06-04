@@ -14,10 +14,10 @@ module.exports = async (req, res) => {
     res.setHeader('Content-Type', 'application/json');
     res.status(200).json({
       schemaVersion: 1,
-      label: "🚀Problems Solved",
+      label: "Problems Solved",
       message: `${solvedNumber}`,
-      color: "7B2E0C",
-      labelColor: "B15A0F",
+      color: "007ACC",
+      labelColor: "4B4B4B",
       style: "for-the-badge"
     });
   } catch (err) {
