@@ -12,16 +12,16 @@ module.exports = async (req, res) => {
     const solvedNumber = solvedText.match(/\d+/)?.[0] || '0';
 
     res.setHeader('Content-Type', 'application/json');
-    res.status(200).json({
-      schemaVersion: 1,
-      label: 'Problems Solved',
-      message: `104 🚀`, // or your dynamic count
-      color: '7B2E0C',
-      labelColor: 'B15A0F',
-      logo: 'rocket',
-      logoColor: 'white',
-      style: 'for-the-badge'
-    });
+res.status(200).json({
+  schemaVersion: 1,
+  label: 'Problems Solved',
+  message: solvedNumber + " 🚀", 
+  color: '7B2E0C',
+  labelColor: 'B15A0F',
+  logo: 'rocket',
+  logoColor: 'white',
+  style: 'for-the-badge'
+});
   } catch (err) {
     console.error(err);
     res.status(500).json({
