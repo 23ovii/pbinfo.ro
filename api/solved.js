@@ -15,8 +15,7 @@ module.exports = async (req, res) => {
       label: "Problems Solved",
       message: `${solvedNumber}`,
       color: "007ACC",
-      labelColor: "4B4B4B",
-      style: "for-the-badge"
+      labelColor: "4B4B4B"
     });
   } catch (err) {
     console.error(err);
