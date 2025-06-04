@@ -1,9 +1,10 @@
 #include <bits/stdc++.h>
 using namespace std;
 int cifminpar(int n) {
-    if (n == 0) return 10;
+    if (n == 0) return -1;
     int temp = cifminpar(n / 10);
     if ((n % 10) % 2 == 0) {
+        if (temp == -1) return n%10;
         if (temp < n % 10) return temp;
         else return n % 10;
     } else {
