@@ -13,9 +13,14 @@ module.exports = async (req, res) => {
 
     res.setHeader('Content-Type', 'application/json');
     res.status(200).json({
+      schemaVersion: 1,
       label: 'Problems Solved',
-      message: solvedNumber,
-      color: '9A3412',
+      message: `104 🚀`, // or your dynamic count
+      color: '7B2E0C',
+      labelColor: 'B15A0F',
+      logo: 'rocket',
+      logoColor: 'white',
+      style: 'for-the-badge'
     });
   } catch (err) {
     console.error(err);
