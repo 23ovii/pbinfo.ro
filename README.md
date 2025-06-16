@@ -52,6 +52,12 @@ pbinfo.ro/
 │   ├── factPrimi.cpp
 │   └── ... (more files)
 │
+├── api/                        # Serverless backend (Node.js, hosted on Vercel)
+│   ├── api/                    # API route handlers
+│   │   └── solved.js           # Fetches number of solved problems from pbinfo.ro via web scraping
+│   ├── package.json            # API project dependencies
+│   ├── package-lock.json       # Dependency lock file
+│   └── vercel.json             # Vercel routing & deployment config
 └── README.md                   # This file
 ```
 
