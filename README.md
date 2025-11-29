@@ -6,7 +6,7 @@ A curated archive of clean, well-documented solutions to algorithmic problems fr
 
 <p align="center">
   <img src="https://img.shields.io/badge/Language-C%2B%2B-blue.svg?style=for-the-badge&logo=c%2B%2B" alt="C++" />
-  <img src="https://img.shields.io/endpoint?url=https://pbinfo-ro.vercel.app/api/solved.js&style=for-the-badge&logo=rocket&logoColor=white" alt="Problems Solved" />
+  <img src="https://img.shields.io/endpoint?url=https://pbinfo-ro.vercel.app/api/solved&style=for-the-badge&logo=rocket&logoColor=white" alt="Problems Solved" />
 
 </p>
 <p align="center">
@@ -91,3 +91,4 @@ Solved with ❤️ by [23ovii](https://github.com/23ovii)
     <img src="https://img.shields.io/badge/PBInfo-23ovii-0088CC?style=for-the-badge&logo=codeforces&logoColor=white" alt="PBInfo Badge" />
   </a>
 </p>
+
