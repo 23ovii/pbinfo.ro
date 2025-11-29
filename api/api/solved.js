@@ -1,6 +1,8 @@
-export const config = { runtime: "nodejs" }
 const axios = require('axios');
 const cheerio = require('cheerio');
+export const config = {
+  runtime: 'nodejs'
+};
 
 module.exports = async (req, res) => {
   try {
