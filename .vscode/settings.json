@@ -4,5 +4,11 @@
         "cstring": "cpp",
         "random": "cpp"
     },
-    "C_Cpp.default.compilerPath": "C:/msys64/mingw64/bin/g++.exe"
+    "C_Cpp.default.compilerPath": "C:/msys64/mingw64/bin/g++.exe",
+    "chat.tools.terminal.autoApprove": {
+        "/^cd \"C:/projects/pbinfo\\.ro/C\\+\\+/10th grade/3\\. Siruri de caractere/1\\. Prelucrari elementare pe siruri de caractere\" && echo \"programare\" \\| \\./890\\.exe$/": {
+            "approve": true,
+            "matchCommandLine": true
+        }
+    }
 }
